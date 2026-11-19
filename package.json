@@ -1,0 +1,23 @@
+{
+  "name": "ai-call-receiver-bot",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "node --experimental-strip-types --test test/booking.test.ts",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2",
+    "vite": "^8.3.5"
+  },
+  "dependencies": {
+    "chrono-node": "^2.10.3",
+    "date-fns": "^4.4.0",
+    "lucide-react": "^1.62.0",
+    "react-router-dom": "^7.18.4",
+    "sql.js": "^1.16.0"
+  }
+}
